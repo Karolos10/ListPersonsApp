@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="person.js"></script>
+    <script src="app.js"></script>
+    <title>Document</title>
+</head>
+
+<body onload="showPerson()">
+    <div class="contenedor" id="cabecero">
+        <h1>List Of Persons</h1>
+    </div>
+    <div class="contenedor">
+        <div class="elemento">
+            <ul id="person">
+                <!-- <li>Juan Perez</li> -->
+            </ul>
+        </div>
+    </div>
+    <div class="contenedor">
+        <div style="text-align: center;">
+            <button style="cursor: pointer" onclick="addPerson()">+</button>
+        </div>
+        <form id="forma">
+            <input type="text" id="name" placeholder="Name" />
+            <input type="text" id="lastName" placeholder="Lasta Name" />
+        </form>
+    </div>
+</body>
+
+</html>
